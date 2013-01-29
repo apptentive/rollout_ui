@@ -1,6 +1,5 @@
 require 'redis'
 require 'rollout'
-require 'rollout_ui/monkey_patch'
 
 # Hack so we only load the engine when Rails will support it.
 # TODO: find a better way
